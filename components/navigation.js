@@ -1,8 +1,10 @@
 import React from 'react'
-import { TabNavigator} from 'react-navigation'
+import { TabNavigator, DrawerNavigator, StackNavigator} from 'react-navigation'
 
 import Sell from './screens/sell'
 import Buy from './screens/buy'
+import Login from './screens/login'
+import SignUp from './screens/signup'
 
 export const Tabs = TabNavigator({
     Beli: {
@@ -25,5 +27,35 @@ export const Tabs = TabNavigator({
         style: {
             backgroundColor: '#fff'
         }
+    }
+})
+
+
+export const Drawer = DrawerNavigator({
+    Beranda: {
+        screen: Tabs
+    },
+    Logout: {
+        screen: Login
+    }
+},{
+    drawerWidth: 300
+})
+
+export const LoginScreen = StackNavigator({
+    Login: {
+        screen: Login,
+    },
+    SignUp: {
+        screen: SignUp
+    },
+    Main: {
+        screen: Drawer
+    }
+},
+{
+    headerMode: "none",
+    navigationOptions: {
+        headerVisible: false
     }
 })

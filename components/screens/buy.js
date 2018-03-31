@@ -58,10 +58,13 @@ export default class Buy extends React.Component{
                     marginTop: 0,
                     borderBottomWidth: 1,
                     borderColor: '#ccc',
+                    paddingBottom: 10
                 }}>
+    
                     <Text style={styles.disableText}> Baru </Text>
                     <Text style={styles.activeText}> Semua Ticket </Text>
                     <Text style={styles.disableText}> Filter </Text>
+
                 </View>
                 <ScrollView>
                     <View style={{
@@ -109,8 +112,6 @@ export default class Buy extends React.Component{
 const styles = new StyleSheet.create ({
     activeText: { 
         color: '#000',
-        borderBottomWidth: 1,
-        borderColor: '#000'
     },
     disableText: {
         color: '#ccc'

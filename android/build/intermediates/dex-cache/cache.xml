@@ -3,57 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="/home/blinfoldking/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_553ea6a9a022815717ef4cea671a18850e58ae06.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_3c7a3d4ea149bad44b07159cd1312be3eb5381d2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_f83ddb42ce5d25b6e3bb2fbd589ca975acf0e7ca.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
         <dex dex="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_036fcaebb1810ab7aeea992fae41fff4b648c644.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/blinfoldking/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_4f91822b10c3319f4fae1728b7f55ada7a7b1184.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_0bcb7d899775b186d46fc90a175629d73024a201.jar" />
     </item>
     <item
         is-multidex="false"
@@ -93,24 +48,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_b092f1b22954dfbf9ebd79794eeebbb2ec70c5a7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/exploded-aar/ResellClient/react-native-gesture-handler/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9ab999c5f892dfc186780340a86dadaf6cc0d0aa">
-        <dex dex="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/pre-dexed/debug/ResellClient-react-native-gesture-handler-unspecified_9fedff2bc3a10aa0033cf58b941dfe0352f29abf.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/blinfoldking/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
         jumboMode="false"
         optimize="true"
@@ -129,15 +66,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/blinfoldking/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_f375382fe6f3bb494a13a400d8cc6aaa067b0163.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -153,24 +81,6 @@
         revision="23.0.1"
         sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
         <dex dex="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_e3668d6bcf714bdfa2da9081f483039534f7282f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/blinfoldking/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_2d5ca4552f45d1043a23070401ebb0bd2a1b42ae.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_cc6d550645491533f125e0fd16e8b3597fe95fc6.jar" />
     </item>
     <item
         is-multidex="false"
@@ -201,11 +111,101 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/blinfoldking/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_553ea6a9a022815717ef4cea671a18850e58ae06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_3c7a3d4ea149bad44b07159cd1312be3eb5381d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_f83ddb42ce5d25b6e3bb2fbd589ca975acf0e7ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/blinfoldking/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_4f91822b10c3319f4fae1728b7f55ada7a7b1184.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_0bcb7d899775b186d46fc90a175629d73024a201.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_b092f1b22954dfbf9ebd79794eeebbb2ec70c5a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/exploded-aar/ResellClient/react-native-gesture-handler/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4590d0776670b7e4ed7ebb1b28e2dcedd9e91e4f">
+        <dex dex="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/pre-dexed/debug/ResellClient-react-native-gesture-handler-unspecified_9fedff2bc3a10aa0033cf58b941dfe0352f29abf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/blinfoldking/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_f375382fe6f3bb494a13a400d8cc6aaa067b0163.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/blinfoldking/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_2d5ca4552f45d1043a23070401ebb0bd2a1b42ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_cc6d550645491533f125e0fd16e8b3597fe95fc6.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/exploded-aar/ResellClient/react-native-image-picker/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="5273521c9f23f4e14a1637a6bcf682400bce6a98">
+        sha1="e236972da5b77c8c82a86499334d63fc4ba04b03">
         <dex dex="/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/pre-dexed/debug/ResellClient-react-native-image-picker-unspecified_70fe91f2c202b1bb67d07bd76b57934478e7e36d.jar" />
     </item>
 

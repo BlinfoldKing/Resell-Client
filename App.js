@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import Header from './components/header';
 import Buy from './components/screens/buy';
 import Sell from './components/screens/sell';
-import { Tabs } from './components/navigation';
+import { Tabs, LoginScreen, Drawer } from './components/navigation';
 
 export default class App extends React.Component {
 
@@ -15,7 +15,7 @@ export default class App extends React.Component {
 
   render() {
     return (
-        <Tabs/>
+        <Drawer/>
     );
   }
 }
