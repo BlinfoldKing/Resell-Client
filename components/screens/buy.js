@@ -3,7 +3,6 @@ import { View, Text, ScrollView, StyleSheet } from 'react-native'
 
 import Card from '../card'
 import Header from '../header'
-import DetailView from '../details'
 import ticket from '../../model/ticket';
 
 export default class Buy extends React.Component{
@@ -40,15 +39,14 @@ export default class Buy extends React.Component{
         //     isVisible: false
         // }
         return (
-            <View>
-                <DetailView 
-                    showModal={this.state.modalProps.isVisible}
-                    title={this.state.modalProps.title}
-                    pic={this.state.modalProps.pic}
-                    total={this.state.modalProps.total}
-                    price={this.state.modalProps.price}
+            <View style={{
+                backgroundColor: '#fff',
+                height: '100%'
+            }}>
+                <Header 
+                    navigation={this.props.navigation}
+                    currScreen="Beli Tiket"
                 />
-                <Header currScreen="Beli Tiket"/>
                 <View style={{
                     flex: 1/16,
                     flexDirection: 'row',
@@ -85,10 +83,8 @@ export default class Buy extends React.Component{
                                         seller: ticket.seller,
                                         pic: ticket.pic,
                                         total: ticket.total,
-
-                                        isVisible: true
                                     }})}
-                                    onTouchEnd={() => this.state.modalProps.isVisible = false}
+                                    onTouchEnd={() => this.props.navigation.navigate('Details', this.state.modalProps)}
                                 >
                                     <Card 
                                         key={i} 

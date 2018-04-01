@@ -106,9 +106,15 @@ export default class Sell extends React.Component{
 
     render() {
         return (
-            <View>
+            <View style={{
+                backgroundColor: '#fff',
+                height: '100%'
+            }}>
 
-                <Header currScreen="Jual Tiket"/>
+                <Header 
+                     navigation={this.props.navigation}
+                    currScreen="Jual Tiket"
+                />
                 <View style={{
                     margin: 20,
                     padding: 10,

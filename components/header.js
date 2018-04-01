@@ -1,14 +1,14 @@
 import React from 'react'
 import { View, Text } from 'react-native'
 import Hamburger from 'react-native-hamburger'
-
+import { NavigationAction } from 'react-navigation'
 
 export default class Header extends React.Component{
     
     constructor(props) {
         super(props)
         this.state = {
-            active: false
+            active: true
         }
     }
     
@@ -28,10 +28,12 @@ export default class Header extends React.Component{
             }}>      
                 
                 <Hamburger
-                    active={this.state.active}
+                    active={false}
                     type="cross"
                     color="#fff"
-                    onPress={() => this.setState({active: !this.state.active})}
+                    onPress={() => {
+                        this.props.navigation.navigate('DrawerOpen')
+                }}
                 />
                 <Text style={{
                     fontSize: 20,

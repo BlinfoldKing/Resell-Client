@@ -5,6 +5,8 @@ import Sell from './screens/sell'
 import Buy from './screens/buy'
 import Login from './screens/login'
 import SignUp from './screens/signup'
+import Profile from './screens/profile'
+import DetailView from './screens/details';
 
 export const Tabs = TabNavigator({
     Beli: {
@@ -39,7 +41,7 @@ export const Drawer = DrawerNavigator({
         screen: Login
     }
 },{
-    drawerWidth: 300
+    drawerWidth: 200
 })
 
 export const LoginScreen = StackNavigator({
@@ -51,6 +53,12 @@ export const LoginScreen = StackNavigator({
     },
     Main: {
         screen: Drawer
+    },
+    Profile: {
+        screen : Profile
+    },
+    Details: {
+        screen: DetailView
     }
 },
 {
