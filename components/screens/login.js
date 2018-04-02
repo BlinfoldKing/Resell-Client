@@ -36,12 +36,14 @@ export default class Login extends React.Component {
                     }}
                     underlineColorAndroid='#6662dc'
                 />
-                <Button 
-                    color='#6662dc'
-                    title="LOGIN"
-                    
-                    onPress={() => navigate('Main')}
-                />
+                <View style={{marginBottom: "20%"}}>
+                    <Button 
+                        color='#6662dc'
+                        title="LOGIN"
+
+                        onPress={() => navigate('Main')}
+                    />
+                </View>
                 <Text>{"Belum punya akun? "}
                     <Text 
                     style={{

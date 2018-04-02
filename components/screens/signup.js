@@ -42,12 +42,14 @@ export default class SignUp extends React.Component {
                     }}
                     underlineColorAndroid='#6662dc'
                 />
-                <Button 
-                    color='#6662dc'
-                    title="SIGN UP"
-                    
-                    onPress={() => navigate('Profile')}
-                />
+                <View style={{marginBottom: "20%"}}>
+                    <Button 
+                        color='#6662dc'
+                        title="SIGN UP"
+
+                        onPress={() => navigate('Profile')}
+                    />
+                </View>
                 <Text>{"Sudah punya akun? "}
                     <Text 
                     style={{

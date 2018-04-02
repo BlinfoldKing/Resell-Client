@@ -11,7 +11,7 @@ require("json-circular-stringify")
 
 export default class Sell extends React.Component{
 
-    state = ({
+    state = {
         fileEmpty: true,
         file: undefined,
         title: '',
@@ -21,7 +21,7 @@ export default class Sell extends React.Component{
         desc: '',
         total: '',
         photouri: ''
-    })
+    }
 
     submit() {
         const data = new FormData()
