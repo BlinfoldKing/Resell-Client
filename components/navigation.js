@@ -1,12 +1,14 @@
 import React from 'react'
+import { View } from 'react-native'
 import { TabNavigator, DrawerNavigator, StackNavigator} from 'react-navigation'
 
 import Sell from './screens/sell'
 import Buy from './screens/buy'
 import Login from './screens/login'
 import SignUp from './screens/signup'
-import Profile from './screens/profile'
-import DetailView from './screens/details';
+import { Profile, ProfileWithHeader } from './screens/profile'
+import DetailView from './screens/details'
+import Header from './header'
 
 export const Tabs = TabNavigator({
     Beli: {
@@ -36,6 +38,9 @@ export const Tabs = TabNavigator({
 export const Drawer = DrawerNavigator({
     Beranda: {
         screen: Tabs
+    },
+    Profile: {
+        screen: ProfileWithHeader
     },
     Logout: {
         screen: Login
