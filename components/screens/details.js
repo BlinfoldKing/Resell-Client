@@ -21,20 +21,23 @@ export default class DetailView extends React.Component{
                 flex: 0,
                 height: '100%'
             }}>
-
+                    
                     <Text style={{
-                        fontSize: 30,
-                        width: 30,
-                        height: 30,
-                        paddingLeft: 7,
-                        paddingTop: 0,
-                        marginBottom: 10,
-                        zIndex: 10
-                        //flex: 1
-                    }}
-                    onPress={() => this.props.navigation.navigate('Main')}
-                    >&times;
+                            fontSize: 20,
+                            marginTop: '1.5%',
+                            marginLeft: '1.5%',
+                            paddingHorizontal: 9,
+                            zIndex: 10,
+                            position: 'absolute',
+                            backgroundColor: "#fff",
+                            color: "#000",
+                            borderRadius: 50
+                        }}
+                        onPress={() => this.props.navigation.navigate('Main')}
+                    >
+                        &times;
                     </Text>
+
                     <Image
                         style={{
                             paddingTop:0,
@@ -50,21 +53,35 @@ export default class DetailView extends React.Component{
                             padding: '5%',
                             flex:0
                         }}>
-                        <Text>{this.props.navigation.state.params.title}</Text>
+                        <Text
+                            style={{
+                                fontSize: 16,
+                                color: '#000'
+                            }}
+                        >{this.props.navigation.state.params.title}</Text>
                         <View>
-                            <Text>Jumlah Tiket: </Text>
-                            <Text>{this.props.navigation.state.params.total}</Text>
+                            <Text>Jumlah Tiket: {this.props.navigation.state.params.total}</Text>
                         </View>
-                        <View>
-                            <Text>Harga Tiket: </Text>
-                            <Text>{this.props.navigation.state.params.price}</Text>
-                        </View>
-                        <View>
-                        <Button
-                            style={{width: '100%'}}
-                            color="#59B871"
-                            title="Beli Sekarang"
-                            onPress={() => this.props.navigation.navigate("Confirm", this.props.navigation.state.params)}
+                        <View style={{
+                            //flex: 1,
+                            width: '100%',
+                            flexDirection: 'row',
+                            alignItems: 'stretch'
+                        }}>
+                            <View> 
+                                <Text
+                                    style={{
+                                        paddingTop: '2.5%'
+                                    }}
+                                >
+                                    IDR {this.props.navigation.state.params.price}
+                                </Text>  
+                            </View>
+                            <Button
+                                style={{width: '100%'}}
+                                color="#59B871"
+                                title="Beli Sekarang"
+                                onPress={() => this.props.navigation.navigate("Confirm", this.props.navigation.state.params)}
                             />
                         </View>
                     </View>

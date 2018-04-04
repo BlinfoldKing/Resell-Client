@@ -8,9 +8,22 @@ export default class Login extends React.Component {
         super (props)
         this.state = ({
             username: '',
-            password: ''
+            password: '',
+            isLogin: false
         })
     }
+
+
+    login () {
+        fetch(`http://resell-api.herokuapp.com/login/${this.state.username}/${this.state.password}`)
+        .then(res => JSON.parse(res._bodyText))
+        .then(res => this.setState({
+            isLogin: res.status === 200
+        }))
+
+        console.log(this.state.isLogin)
+    }
+
     render () {
         const { navigate } = this.props.navigation
         return (
@@ -36,19 +49,25 @@ export default class Login extends React.Component {
                 }}>Beli dan jual tiket anda dengan mudah disini sekarang !</Text>
                 <TextInput
                     underlineColorAndroid='#6662dc'
+                    onChange={(input) => this.setState({username: input.target.value})}
                 />
                 <TextInput
                     style={{
                         marginBottom: '10%',
                     }}
                     underlineColorAndroid='#6662dc'
+                    onChange={(input) => this.setState({password: input.target.value})}
                 />
                 <View style={{marginBottom: "20%"}}>
                     <Button 
                         color='#6662dc'
                         title="LOGIN"
 
-                        onPress={() => navigate('Main')}
+                        onPress={() => { 
+                            if(!this.state.isLogin) this.login()
+                            else
+                                navigate('Main')
+                        }}
                     />
                 </View>
                 <Text>{"Belum punya akun? "}
@@ -56,7 +75,7 @@ export default class Login extends React.Component {
                     style={{
                         color: "#59B871"
                     }}
-                    onPress={() => navigate('SignUp')}>
+                    onPress={() =>  navigate('SignUp')}>
                         Sign Up
                     </Text>
                 </Text>
