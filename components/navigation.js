@@ -9,6 +9,7 @@ import SignUp from './screens/signup'
 import { Profile, ProfileWithHeader } from './screens/profile'
 import DetailView from './screens/details'
 import Header from './header'
+import Confirm from './screens/confirmation'
 
 export const Tabs = TabNavigator({
     Beli: {
@@ -64,6 +65,9 @@ export const LoginScreen = StackNavigator({
     },
     Details: {
         screen: DetailView
+    },
+    Confirm: {
+        screen: Confirm
     }
 },
 {

@@ -83,6 +83,7 @@ export default class Buy extends React.Component{
                                         seller: ticket.seller,
                                         pic: ticket.pic,
                                         total: ticket.total,
+                                        id:  ticket.id
                                     }})}
                                     onTouchEnd={() => this.props.navigation.navigate('Details', this.state.modalProps)}
                                 >

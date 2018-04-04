@@ -10,12 +10,11 @@ export default class DetailView extends React.Component{
 
     constructor(props) {
         super(props)
-        this.state.showThis = false
+
     }
 
     render() {
-        if(this.props.navigation.state.params.showModal)
-            this.state.showThis = true
+
         return (
             <View style={{
                 backgroundColor: '#fff',
@@ -65,7 +64,7 @@ export default class DetailView extends React.Component{
                             style={{width: '100%'}}
                             color="#59B871"
                             title="Beli Sekarang"
-                            onPress={() => console.log('  ')}
+                            onPress={() => this.props.navigation.navigate("Confirm", this.props.navigation.state.params)}
                             />
                         </View>
                     </View>

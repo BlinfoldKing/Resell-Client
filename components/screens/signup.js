@@ -42,7 +42,7 @@ export default class SignUp extends React.Component {
                     }}
                     underlineColorAndroid='#6662dc'
                 />
-                <View style={{marginBottom: "20%"}}>
+                <View style={{marginBottom: "10%"}}>
                     <Button 
                         color='#6662dc'
                         title="SIGN UP"

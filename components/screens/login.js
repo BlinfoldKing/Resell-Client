@@ -4,6 +4,13 @@ import { TextInput } from 'react-native-gesture-handler';
 
 export default class Login extends React.Component {
 
+    constructor (props) {
+        super (props)
+        this.state = ({
+            username: '',
+            password: ''
+        })
+    }
     render () {
         const { navigate } = this.props.navigation
         return (

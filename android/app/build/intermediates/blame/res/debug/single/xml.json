@@ -4,7 +4,15 @@
         "source": "/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/exploded-aar/ResellClient/react-native-image-picker/unspecified/res/xml/provider_paths.xml"
     },
     {
+        "merged": "/home/blinfoldking/Resell-Client/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/home/blinfoldking/Resell-Client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/xml/preferences.xml"
+    },
+    {
         "merged": "/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
         "source": "/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/home/blinfoldking/Resell-Client/android/app/build/intermediates/res/merged/debug/xml/provider_paths.xml",
+        "source": "/home/blinfoldking/Resell-Client/android/app/build/intermediates/exploded-aar/ResellClient/react-native-image-picker/unspecified/res/xml/provider_paths.xml"
     }
 ]

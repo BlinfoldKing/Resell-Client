@@ -19,9 +19,6 @@ export default class StackHeader extends React.Component {
             }}>      
                 
                 <Text
-                    active={false}
-                    type="cross"
-                    color="#fff"
                     onPress={() => {
                         this.props.navigation.navigate('DrawerOpen')
                 }}

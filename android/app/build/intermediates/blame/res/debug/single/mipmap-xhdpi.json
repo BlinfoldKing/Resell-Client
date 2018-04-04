@@ -2,5 +2,9 @@
     {
         "merged": "/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
         "source": "/home/blinfoldking/project/Resell-Client/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/blinfoldking/Resell-Client/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/home/blinfoldking/Resell-Client/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     }
 ]

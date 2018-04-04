@@ -38,7 +38,7 @@ export default class Sell extends React.Component{
         }, `${this.state.title}.jpg`)
         console.log(data)
 
-        fetch(' https://resell-api.herokuapp.com/', {
+        fetch(' https://resell-api.herokuapp.com/postTicket', {
                 method: 'post',
                 headers: {
                     'Content-Type': 'multipart/form-data',
@@ -55,7 +55,7 @@ export default class Sell extends React.Component{
                 seller: 'lorem',
                 desc: '',
                 total: '',
-                photouri: ''
+                photouri: '',
             }))
             .catch(err => console.error(err))
     }
