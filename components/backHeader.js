@@ -3,6 +3,12 @@ import { View, Text } from 'react-native'
 
 
 export default class BackHeader extends React.Component {
+    
+    constructor(props) {
+        super (props)
+        console.log(props)
+    }
+    
     render () {
         return (
             <View style={{
@@ -11,26 +17,27 @@ export default class BackHeader extends React.Component {
                 alignContent: 'center',
                 flexDirection: 'row',
                 justifyContent: 'space-between',
-                paddingTop: 10,
+                paddingTop: 5,
                 paddingLeft: 20,
                 paddingRight: 20,
                 marginBottom: 10,
-                paddingBottom: 10
+                paddingBottom: 5
             }}>      
                 
                 <Text
                     style={{
-                        color: '#fff'
+                        color: '#fff',
+                        fontSize: 30
                     }}
                     onPress={() => {
-                        this.props.navigation.navigate(this.props.prev)
+                        this.props.navigation.navigate(this.props.prev, this.props.navigation.state.params)
                 }}
-                >{"<-"}</Text>
+                >&times;</Text>
                 <Text style={{
                     fontSize: 20,
                     color: '#fff'
                 }}>{this.props.currScreen}</Text>
             </View>
-    )
+        )
     }
 }

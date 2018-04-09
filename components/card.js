@@ -28,7 +28,7 @@ export default class Card extends React.Component {
                     color: '#ccc',
                     marginTop: 10,
                     fontSize: 11
-                }}> Lorem Ipsum  </Text>
+                }}> {this.props.seller}  </Text>
                 <Text style={{
                     marginTop: 0,
                     fontSize: 11

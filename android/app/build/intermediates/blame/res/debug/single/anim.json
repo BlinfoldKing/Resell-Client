@@ -20,12 +20,12 @@
         "source": "/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/anim/catalyst_push_up_out.xml"
     },
     {
-        "merged": "/home/blinfoldking/Resell-Client/android/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/home/blinfoldking/Resell-Client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/anim/abc_grow_fade_in_from_bottom.xml"
-    },
-    {
         "merged": "/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
         "source": "/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/blinfoldking/Resell-Client/android/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/blinfoldking/Resell-Client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",

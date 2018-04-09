@@ -14,12 +14,11 @@ export default class Confirm extends React.Component {
     render () {
         return ( 
             <View
-             style={{
-                backgroundColor: '#fff',
-                flex: 1,
-                justifyContent: 'space-between'
-             }}   
-            >
+            style={{
+               backgroundColor: '#fff',
+               flex: 1,
+               justifyContent: 'space-between'
+            }}>
                 <View>
                     <BackHeader
                         currScreen="Konfirmasi Barang"
@@ -100,9 +99,12 @@ export default class Confirm extends React.Component {
                         style={{width: '100%'}}
                         color="#59B871"
                         title="Konfirmasi"
-                        onPress={() => fetch(`https://resell-api.herokuapp.com/deleteData/${this.props.navigation.state.params.id}`,{
-                            method: 'DELETE'
-                        })}
+                        onPress={() => {
+                            fetch(`https://resell-api.herokuapp.com/deleteData/${this.props.navigation.state.params.id}/${this.state.count}`,{
+                                method: 'DELETE'
+                                })
+                            this.props.navigation.navigate('Main', this.props.navigation.state.params)
+                            }}   
                     />
                 </View>
             </View>

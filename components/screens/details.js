@@ -21,7 +21,7 @@ export default class DetailView extends React.Component{
                 flex: 0,
                 height: '100%'
             }}>
-                    
+
                     <Text style={{
                             fontSize: 20,
                             marginTop: '1.5%',
@@ -30,10 +30,10 @@ export default class DetailView extends React.Component{
                             zIndex: 10,
                             position: 'absolute',
                             backgroundColor: "#fff",
-                            color: "#000",
+                            color: "#6662dc",
                             borderRadius: 50
                         }}
-                        onPress={() => this.props.navigation.navigate('Main')}
+                        onPress={() => this.props.navigation.navigate('Main', this.props.navigation.state.params)}
                     >
                         &times;
                     </Text>
@@ -51,42 +51,47 @@ export default class DetailView extends React.Component{
                     <View style={{
                             margin:0,
                             padding: '5%',
-                            flex:0
+                            flex:1
                         }}>
                         <Text
                             style={{
                                 fontSize: 16,
-                                color: '#000'
+                                color: '#333'
                             }}
                         >{this.props.navigation.state.params.title}</Text>
-                        <View>
-                            <Text>Jumlah Tiket: {this.props.navigation.state.params.total}</Text>
+                        
+                        <View style={{flexDirection: 'row'}}>
+                            <Text style={{marginRight: '15%', fontSize: 10}}>Jumlah Tiket: {this.props.navigation.state.params.total}</Text>
+                            <Text style={{fontSize: 10}}>Harga Tiket: IDR {this.props.navigation.state.params.price},-</Text>
                         </View>
-                        <View style={{
-                            //flex: 1,
-                            width: '100%',
-                            flexDirection: 'row',
-                            alignItems: 'stretch'
-                        }}>
-                            <View> 
-                                <Text
+                        
+                        <View style={{marginTop: '10%'}}>
+                            <Text style={{color: '#333'}}>Deskripsi</Text>
+                            <Text style={{fontSize: 11}}>{this.props.navigation.state.params.desc}</Text>
+                        </View>
+                        
+                        <View style={{marginTop: '10%', marginBottom: '5%',}}>
+                            <Text style={{color: '#333'}}>Penjual</Text>
+                            <View style={{padding: '1%',}}>
+                                <Image
                                     style={{
-                                        paddingTop: '2.5%'
-                                    }}
-                                >
-                                    IDR {this.props.navigation.state.params.price}
-                                </Text>  
+                                        width : 32,
+                                        height: 32,
+                                        borderRadius: 50
+                                    }} 
+                                    source={{uri: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png'}}/>
                             </View>
-                            <Button
-                                style={{width: '100%'}}
-                                color="#59B871"
-                                title="Beli Sekarang"
-                                onPress={() => this.props.navigation.navigate("Confirm", this.props.navigation.state.params)}
-                            />
+                            <Text style={{fontSize: 11}}>{this.props.navigation.state.params.seller}</Text>
                         </View>
-                    </View>
-                   
 
+                    </View>
+                <Button
+                        style={{width: '100%'}}
+                        color="#59B871"
+                        title="Beli Sekarang"
+                        onPress={() => this.props.navigation.navigate("Confirm", this.props.navigation.state.params)}
+                />
+            
             </View> 
         )
     }

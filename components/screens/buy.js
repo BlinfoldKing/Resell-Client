@@ -72,7 +72,7 @@ export default class Buy extends React.Component{
                         flexDirection:'row',
                         flexWrap: 'wrap',
                     }}>
-                        {this.state.data.map(
+                        {this.state.data.filter(d => d.seller != this.props.navigation.state.params.username).map(
                             (ticket, i) => 
                                 <View
                                     key={i}
@@ -83,7 +83,8 @@ export default class Buy extends React.Component{
                                         seller: ticket.seller,
                                         pic: ticket.pic,
                                         total: ticket.total,
-                                        id:  ticket.id
+                                        id:  ticket.id,
+                                        desc: ticket.desc
                                     }})}
                                     onTouchEnd={() => this.props.navigation.navigate('Details', this.state.modalProps)}
                                 >
@@ -93,6 +94,7 @@ export default class Buy extends React.Component{
                                         price={ticket.price}
                                         location={ticket.location}
                                         pic={ticket.pic}
+                                        seller={ticket.seller}
                                     />
                                 </View>)}
                     </View>

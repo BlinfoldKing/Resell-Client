@@ -17,13 +17,14 @@ export default class Sell extends React.Component{
         title: '',
         price: '',
         location: '',
-        seller: 'lorem',
+        seller: this.props.navigation.state.params.username,
         desc: '',
         total: '',
         photouri: ''
     }
 
     submit() {
+        console.log(this.props.navigation.state.params)
         const data = new FormData()
         data.append('title', this.state.title)
         data.append('price', this.state.price)
@@ -52,7 +53,6 @@ export default class Sell extends React.Component{
                 title: '',
                 price: '',
                 location: '',
-                seller: 'lorem',
                 desc: '',
                 total: '',
                 photouri: '',
@@ -88,8 +88,7 @@ export default class Sell extends React.Component{
             else {
               let source = { uri: response.uri };
               console.log(source)
-              // You can also display the image using data:
-              // let source = { uri: 'data:image/jpeg;base64,' + response.data };
+              
           
               this.setState({
                 fileEmpty: false,
@@ -179,7 +178,7 @@ export default class Sell extends React.Component{
                         width: '100%',
                         marginTop: 10
                     }}>
-                        <Text style={{marginBottom: 10}}>Jumlah Tiket</Text>
+                        <Text style={{marginBottom: 10}}>Foto Tiket</Text>
                         <Text
                             style={styles.textInput}
                             onPress={this.showPicker.bind(this)}

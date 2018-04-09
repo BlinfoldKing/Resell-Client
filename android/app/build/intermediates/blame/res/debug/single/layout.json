@@ -1,15 +1,15 @@
 [
     {
-        "merged": "/home/blinfoldking/Resell-Client/android/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/home/blinfoldking/Resell-Client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_mode_bar.xml"
+        "merged": "/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "/home/blinfoldking/Resell-Client/android/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
         "source": "/home/blinfoldking/Resell-Client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
-        "source": "/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
+        "merged": "/home/blinfoldking/Resell-Client/android/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/home/blinfoldking/Resell-Client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_mode_bar.xml"
     },
     {
         "merged": "/home/blinfoldking/project/Resell-Client/android/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
